@@ -2,7 +2,8 @@
 import { Octokit } from '@octokit/rest';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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',
+  baseUrl: 'https://api.github.com'
 });
 
 export default octokit;
